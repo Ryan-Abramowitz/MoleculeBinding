@@ -241,3 +241,422 @@ DevTools listening on ws://localhost:47227/devtools/browser/b4e4bb29-e8f2-441d-9
 
 ###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
 
+1645907444608	geckodriver	INFO	Listening on 127.0.0.1:41163
+1645907445112	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35031" "-no-remote" "-profile" "/tmp/rust_mozprofileSI81m0"
+1645907446378	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSI81m0/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35031/devtools/browser/8cf4ee4d-e722-4248-b3ab-004a1be3dfcd
+1645907448420	Marionette	INFO	Listening on port 33759
+1645907448539	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.carbosynth.com/carbosynth/website.nsf/structure_search, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.carbosynth.com/carbosynth/website.nsf/carbo/assets/plugins/datatables/datatables.bootstrap.min.js, line 91: TypeError: c is undefined
+JavaScript warning: https://www.carbosynth.com/carbosynth/website.nsf/marvinjs_iframe, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645907462405	Marionette	INFO	Stopped listening on port 33759
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645907548646	geckodriver	INFO	Listening on 127.0.0.1:48667
+1645907549150	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56403" "-no-remote" "-profile" "/tmp/rust_mozprofileFP0wHW"
+1645907550028	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFP0wHW/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56403/devtools/browser/6d6ba66c-65f9-4b5d-bd0a-1710c926fc20
+1645907551818	Marionette	INFO	Listening on port 35107
+1645907552295	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.carbosynth.com/carbosynth/website.nsf/structure_search, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.carbosynth.com/carbosynth/website.nsf/carbo/assets/plugins/datatables/datatables.bootstrap.min.js, line 91: TypeError: c is undefined
+JavaScript warning: https://www.carbosynth.com/carbosynth/website.nsf/marvinjs_iframe, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645907557316	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.carbosynth.com/carbosynth/website.nsf/marvinjs_iframe, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645907590828	geckodriver	INFO	Listening on 127.0.0.1:49811
+1645907591338	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33035" "-no-remote" "-profile" "/tmp/rust_mozprofileQZidxl"
+1645907592551	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQZidxl/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33035/devtools/browser/a1606adc-ea5b-4fb4-b76c-c536cdc822cf
+1645907594455	Marionette	INFO	Listening on port 41437
+1645907594573	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645907595515	Marionette	INFO	Stopped listening on port 35107
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://www.carbosynth.com/carbosynth/website.nsf/structure_search, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.carbosynth.com/carbosynth/website.nsf/carbo/assets/plugins/datatables/datatables.bootstrap.min.js, line 91: TypeError: c is undefined
+JavaScript warning: https://www.carbosynth.com/carbosynth/website.nsf/marvinjs_iframe, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645907600238	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.carbosynth.com/carbosynth/website.nsf/carbo/assets/plugins/datatables/datatables.bootstrap.min.js, line 91: TypeError: c is undefined
+1645907672988	geckodriver	INFO	Listening on 127.0.0.1:34875
+1645907673493	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52435" "-no-remote" "-profile" "/tmp/rust_mozprofileUvlj1l"
+1645907674487	Marionette	INFO	Marionette enabled
+1645907675133	Marionette	INFO	Stopped listening on port 41437
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUvlj1l/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52435/devtools/browser/9054e0f2-082a-4ffa-ac7d-a649e8782db6
+1645907676466	Marionette	INFO	Listening on port 46581
+1645907676526	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.carbosynth.com/carbosynth/website.nsf/structure_search, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.carbosynth.com/carbosynth/website.nsf/carbo/assets/plugins/datatables/datatables.bootstrap.min.js, line 91: TypeError: c is undefined
+JavaScript warning: https://www.carbosynth.com/carbosynth/website.nsf/marvinjs_iframe, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645907683628	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 2055: TypeError: currentPanel is undefined
+JavaScript warning: https://www.carbosynth.com/carbosynth/website.nsf/marvinjs_iframe, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 327))
+InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment: _createTargetActor/<@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:327:12
+newListener@resource://devtools/shared/event-emitter.js:173:27
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+destroy@resource://devtools/server/actors/targets/window-global.js:743:10
+module.exports/proto.destroy@resource://devtools/server/actors/targets/target-actor-mixin.js:244:30
+instantiate@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:242:26
+handleEvent@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:651:12
+
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483656/layout26, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+1645907730989	geckodriver	INFO	Listening on 127.0.0.1:48305
+1645907731501	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60879" "-no-remote" "-profile" "/tmp/rust_mozprofilevQuLIV"
+1645907732407	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevQuLIV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60879/devtools/browser/8000ca10-3937-40fd-b9e5-8b5ed99a9b50
+1645907734530	Marionette	INFO	Listening on port 42321
+1645907734631	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1645907735161	Marionette	INFO	Stopped listening on port 46581
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript warning: https://www.carbosynth.com/carbosynth/website.nsf/structure_search, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: https://www.carbosynth.com/carbosynth/website.nsf/carbo/assets/plugins/datatables/datatables.bootstrap.min.js, line 91: TypeError: c is undefined
+JavaScript warning: https://www.carbosynth.com/carbosynth/website.nsf/marvinjs_iframe, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645907743510	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1645907942405	Marionette	INFO	Stopped listening on port 42321
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1645907981794	geckodriver	INFO	Listening on 127.0.0.1:57439
+1645907982297	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47785" "-no-remote" "-profile" "/tmp/rust_mozprofileuVjQZ1"
+1645907983133	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuVjQZ1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:47785/devtools/browser/3637a109-0f59-42cd-bd68-da9323b81e65
+1645907984840	Marionette	INFO	Listening on port 34473
+1645907984935	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.carbosynth.com/carbosynth/website.nsf/structure_search, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.carbosynth.com/carbosynth/website.nsf/carbo/assets/plugins/datatables/datatables.bootstrap.min.js, line 91: TypeError: c is undefined
+JavaScript warning: https://www.carbosynth.com/carbosynth/website.nsf/marvinjs_iframe, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645908002939	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 327))
+InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment: _createTargetActor/<@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:327:12
+newListener@resource://devtools/shared/event-emitter.js:173:27
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+destroy@resource://devtools/server/actors/targets/window-global.js:743:10
+module.exports/proto.destroy@resource://devtools/server/actors/targets/target-actor-mixin.js:244:30
+instantiate@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:242:26
+handleEvent@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:651:12
+
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483655/layout26, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+1645908079349	geckodriver	INFO	Listening on 127.0.0.1:45225
+1645908079854	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58075" "-no-remote" "-profile" "/tmp/rust_mozprofileyu7QTb"
+1645908080639	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyu7QTb/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58075/devtools/browser/9e2a79a8-e747-4bf6-8549-8e91919ed5ab
+1645908083282	Marionette	INFO	Listening on port 40377
+1645908083389	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.carbosynth.com/carbosynth/website.nsf/structure_search, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.carbosynth.com/carbosynth/website.nsf/carbo/assets/plugins/datatables/datatables.bootstrap.min.js, line 91: TypeError: c is undefined
+JavaScript warning: https://www.carbosynth.com/carbosynth/website.nsf/marvinjs_iframe, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645908091825	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 7725 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+SourceActor threw an exception: Error: Failed to fetch https://www.carbosynth.com/carbosynth/website.nsf/marvinjs-20.14.0-all/gui/lib/promise-1.0.0.min.js. Code 2152398879.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:556:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 556, column: 16
+console.error: (new Error("Failed to fetch https://www.carbosynth.com/carbosynth/website.nsf/marvinjs-20.14.0-all/gui/lib/promise-1.0.0.min.js. Code 2152398879.", "resource://devtools/shared/DevToolsUtils.js", 556))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 556: Error: Failed to fetch https://www.carbosynth.com/carbosynth/website.nsf/marvinjs-20.14.0-all/gui/lib/promise-1.0.0.min.js. Code 2152398879.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 5474 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 7310 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1645908634475	Marionette	INFO	Stopped listening on port 40377
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645908671061	geckodriver	INFO	Listening on 127.0.0.1:38567
+1645908671565	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58159" "-no-remote" "-profile" "/tmp/rust_mozprofile5a8VIH"
+1645908672323	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5a8VIH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58159/devtools/browser/e221d675-246c-46ec-b9b0-ef73781064fb
+1645908674111	Marionette	INFO	Listening on port 44105
+1645908674190	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.carbosynth.com/carbosynth/website.nsf/structure_search, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.carbosynth.com/carbosynth/website.nsf/carbo/assets/plugins/datatables/datatables.bootstrap.min.js, line 91: TypeError: c is undefined
+JavaScript warning: https://www.carbosynth.com/carbosynth/website.nsf/marvinjs_iframe, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645908681613	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.carbosynth.com/carbosynth/website.nsf/marvinjs_iframe, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.carbosynth.com/carbosynth/website.nsf/carbo/assets/plugins/select2/select2.full.min.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://www.carbosynth.com/carbosynth/website.nsf/carbo/assets/plugins/datatables/datatables.bootstrap.min.js, line 91: TypeError: c is undefined
+SourceActor threw an exception: Error: Failed to fetch https://www.carbosynth.com/carbosynth/website.nsf/marvinjs-20.14.0-all/gui/lib/promise-1.0.0.min.js. Code 2152398879.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:556:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 556, column: 16
+console.error: (new Error("Failed to fetch https://www.carbosynth.com/carbosynth/website.nsf/marvinjs-20.14.0-all/gui/lib/promise-1.0.0.min.js. Code 2152398879.", "resource://devtools/shared/DevToolsUtils.js", 556))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 556: Error: Failed to fetch https://www.carbosynth.com/carbosynth/website.nsf/marvinjs-20.14.0-all/gui/lib/promise-1.0.0.min.js. Code 2152398879.
+1645910132718	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1645910175673	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1645910189799	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1645910250856	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 6096 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645910364391	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1645910372456	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/iRu7R9Kt0H3UwF1-zQK7LLgwIl8DaRlhr3qpKTHCDIY.js line 1 > eval line 7798 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 4521 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/iRu7R9Kt0H3UwF1-zQK7LLgwIl8DaRlhr3qpKTHCDIY.js line 1 > eval line 7721 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 842 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.9275200ea20cc87eb3ec.js, line 1: unreachable code after return statement
+1645910506432	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/iRu7R9Kt0H3UwF1-zQK7LLgwIl8DaRlhr3qpKTHCDIY.js line 1 > eval line 2976 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 3577 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.carbosynth.com/carbosynth/website.nsf/carbo/assets/plugins/datatables/datatables.bootstrap.min.js, line 91: TypeError: c is undefined
+1645910728267	geckodriver	INFO	Listening on 127.0.0.1:34265
+1645910728779	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33381" "-no-remote" "-profile" "/tmp/rust_mozprofilesCrouG"
+1645910729583	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesCrouG/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33381/devtools/browser/730378ae-561a-4eeb-87d3-bb4b11b232d8
+1645910731281	Marionette	INFO	Listening on port 45633
+1645910731732	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.carbosynth.com/carbosynth/website.nsf/marvinjs_iframe, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645910746483	Marionette	INFO	Stopped listening on port 45633
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+JavaScript error: https://script.crazyegg.com/pages/scripts/0085/1990.js, line 1: Error: CE: multiple userscripts installed
+1645910811403	geckodriver	INFO	Listening on 127.0.0.1:39839
+1645910811912	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34313" "-no-remote" "-profile" "/tmp/rust_mozprofileaPgpQ8"
+1645910812737	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaPgpQ8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:34313/devtools/browser/52f2156a-657b-428e-a1fd-38686326f556
+1645910814330	Marionette	INFO	Listening on port 41757
+1645910814439	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.carbosynth.com/carbosynth/website.nsf/structure_search, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.carbosynth.com/carbosynth/website.nsf/carbo/assets/plugins/datatables/datatables.bootstrap.min.js, line 91: TypeError: c is undefined
+JavaScript warning: https://www.carbosynth.com/carbosynth/website.nsf/marvinjs_iframe, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645910822299	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.carbosynth.com/carbosynth/website.nsf/carbo/assets/plugins/datatables/datatables.bootstrap.min.js, line 91: TypeError: c is undefined
+SourceActor threw an exception: Error: Failed to fetch https://www.carbosynth.com/carbosynth/website.nsf/marvinjs-20.14.0-all/gui/lib/promise-1.0.0.min.js. Code 2152398879.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:556:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 556, column: 16
+console.error: (new Error("Failed to fetch https://www.carbosynth.com/carbosynth/website.nsf/marvinjs-20.14.0-all/gui/lib/promise-1.0.0.min.js. Code 2152398879.", "resource://devtools/shared/DevToolsUtils.js", 556))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 556: Error: Failed to fetch https://www.carbosynth.com/carbosynth/website.nsf/marvinjs-20.14.0-all/gui/lib/promise-1.0.0.min.js. Code 2152398879.
+JavaScript warning: resource://devtools/client/shared/demangle.js, line 0: Successfully compiled asm.js code (total compilation time 99ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/iRu7R9Kt0H3UwF1-zQK7LLgwIl8DaRlhr3qpKTHCDIY.js line 1 > eval line 3313 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/-4sYiv7uFugH1PgVeRb0F7gL3N27obdizTixLSM-gPg.js line 1 > eval line 2519 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2320))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 327))
+InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment: _createTargetActor/<@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:327:12
+newListener@resource://devtools/shared/event-emitter.js:173:27
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+destroy@resource://devtools/server/actors/targets/window-global.js:743:10
+module.exports/proto.destroy@resource://devtools/server/actors/targets/target-actor-mixin.js:244:30
+instantiate@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:242:26
+handleEvent@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:651:12
+
+JavaScript error: https://www.carbosynth.com/carbosynth/website.nsf/carbo/assets/plugins/datatables/datatables.bootstrap.min.js, line 91: TypeError: c is undefined
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 327))
+InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment: _createTargetActor/<@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:327:12
+newListener@resource://devtools/shared/event-emitter.js:173:27
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+destroy@resource://devtools/server/actors/targets/window-global.js:743:10
+module.exports/proto.destroy@resource://devtools/server/actors/targets/target-actor-mixin.js:244:30
+instantiate@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:242:26
+handleEvent@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:651:12
+
+console.error: "Unable to find target with innerWindowId:2147483673"
+console.error: "Unable to find target with innerWindowId:2147483673"
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 327))
+InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment: _createTargetActor/<@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:327:12
+newListener@resource://devtools/shared/event-emitter.js:173:27
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+destroy@resource://devtools/server/actors/targets/window-global.js:743:10
+module.exports/proto.destroy@resource://devtools/server/actors/targets/target-actor-mixin.js:244:30
+instantiate@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:242:26
+handleEvent@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:651:12
+
+JavaScript error: https://www.carbosynth.com/carbosynth/website.nsf/carbo/assets/plugins/datatables/datatables.bootstrap.min.js, line 91: TypeError: c is undefined
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1645911543186	Marionette	INFO	Stopped listening on port 34473
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1645911546232	Marionette	INFO	Stopped listening on port 44105
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1645911547261	Marionette	INFO	Stopped listening on port 41757
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645911567332	geckodriver	INFO	Listening on 127.0.0.1:40573
+1645911567846	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50119" "-no-remote" "-profile" "/tmp/rust_mozprofilezjIhUf"
+1645911569157	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezjIhUf/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50119/devtools/browser/07a84d4d-3de1-470b-885d-33b573d97206
+1645911570996	Marionette	INFO	Listening on port 40755
+1645911571080	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.carbosynth.com/carbosynth/website.nsf/structure_search, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.carbosynth.com/carbosynth/website.nsf/carbo/assets/plugins/datatables/datatables.bootstrap.min.js, line 91: TypeError: c is undefined
+JavaScript warning: https://www.carbosynth.com/carbosynth/website.nsf/marvinjs_iframe, line 9: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645911580152	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.carbosynth.com/carbosynth/website.nsf/carbo/assets/plugins/datatables/datatables.bootstrap.min.js, line 91: TypeError: c is undefined
+SourceActor threw an exception: Error: Failed to fetch https://www.carbosynth.com/carbosynth/website.nsf/marvinjs-20.14.0-all/gui/lib/promise-1.0.0.min.js. Code 2152398879.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:556:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 556, column: 16
+console.error: (new Error("Failed to fetch https://www.carbosynth.com/carbosynth/website.nsf/marvinjs-20.14.0-all/gui/lib/promise-1.0.0.min.js. Code 2152398879.", "resource://devtools/shared/DevToolsUtils.js", 556))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 556: Error: Failed to fetch https://www.carbosynth.com/carbosynth/website.nsf/marvinjs-20.14.0-all/gui/lib/promise-1.0.0.min.js. Code 2152398879.
+console.error: "Error while calling actor 'animations's method 'getAnimationPlayersForNode'" "nodeActor is null"
+console.error: (new TypeError("nodeActor is null", "resource://devtools/server/actors/animation.js", 640))
+console.error: "Exception when calling onAvailable handler" "Protocol error (TypeError): nodeActor is null from: server0.conn0.windowGlobal2147483659/animationsActor12 (resource://devtools/server/actors/animation.js:640:24)" (new Error("Protocol error (TypeError): nodeActor is null from: server0.conn0.windowGlobal2147483659/animationsActor12 (resource://devtools/server/actors/animation.js:640:24)", "resource://devtools/shared/protocol/Front.js", 365))
+console.error: "Error while calling actor 'animations's method 'getAnimationPlayersForNode'" "nodeActor is null"
+console.error: (new TypeError("nodeActor is null", "resource://devtools/server/actors/animation.js", 640))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 365: Error: Protocol error (TypeError): nodeActor is null from: server0.conn0.windowGlobal2147483659/animationsActor12 (resource://devtools/server/actors/animation.js:640:24)
+console.error: "Panel inspector:" (new TypeError("event is undefined", "resource://devtools/client/shared/telemetry.js", 700))
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1645912251488	Marionette	INFO	Stopped listening on port 40755
+console.error: PushServiceWebSocket: 
+  _beginWSSetup: Not in shutdown state! Current state
+  3
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645919688174	geckodriver	INFO	Listening on 127.0.0.1:56741
+1645919688682	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36885" "-no-remote" "-profile" "/tmp/rust_mozprofilew0LvvI"
+1645919689579	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilew0LvvI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:36885/devtools/browser/ccf8a9aa-25e4-406a-9883-b1ff38b045f0
+1645919691750	Marionette	INFO	Listening on port 39741
+1645919691816	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645921316097	Marionette	INFO	Stopped listening on port 39741
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645921606042	geckodriver	INFO	Listening on 127.0.0.1:48139
+1645921606546	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52767" "-no-remote" "-profile" "/tmp/rust_mozprofileWaG8qI"
+1645921607406	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWaG8qI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52767/devtools/browser/11efcc04-49ae-4fb1-9d02-abff7efbdde0
+1645921609139	Marionette	INFO	Listening on port 34803
+1645921609178	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645927561260	Marionette	INFO	Stopped listening on port 34803
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645995212582	geckodriver	INFO	Listening on 127.0.0.1:50583
+1645995213073	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53643" "-no-remote" "-profile" "/tmp/rust_mozprofileR3AQIq"
+1645995214295	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileR3AQIq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53643/devtools/browser/b09b2b69-9e36-44d3-a5ff-2b5ce1cfd606
+1645995216372	Marionette	INFO	Listening on port 35125
+1645995216411	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645996521174	Marionette	INFO	Stopped listening on port 35125
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+

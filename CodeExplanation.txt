@@ -9,7 +9,7 @@ In order to determine which parts of the molecule were leading it to it's predic
 
 Catalog Scoring:
 
-To generate the molecules in our screening library, we took the Santa Cruz Biotech stock list carbohydrates and filtered out any molecules that we could not find the isomeric SMILES for, the molecules that were much heavier than our training dataset, any molecules more expensive than _________$, and any molecules with a prediction less than 0.8.
+To generate the molecules in our screening library, we took the Santa Cruz Biotech stock list carbohydrates and filtered out any molecules that we could not find the chiral SMILES for, the molecules that were substantially heavier than our training dataset, any molecules more expensive than _________$, and any molecules with a prediction less than 0.8.
 
 
 (1) RDKit: Open-source cheminformatics. https://www.rdkit.org

@@ -114,7 +114,6 @@ def find_clusters(mol: Chem.Mol) -> Tuple[List[Tuple[int, ...]], List[List[int]]
             atom_cls[atom].append(i)
 
     return clusters, atom_cls
-df['label'] = [i[0] == 'a' for i in df['label']]
 
 
 def __extract_subgraph(mol: Chem.Mol, selected_atoms: Set[int]) -> Tuple[Chem.Mol, List[int]]:

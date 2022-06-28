@@ -40,8 +40,8 @@ import numpy as np
 import random
 random.seed(0)
 
-gone = 7
-
+testsmiles = 'O[C@H](C)C(=O)O'
+testname = 'D-(-)-Lactic acid'
 
 
 
@@ -330,13 +330,13 @@ print("Fingerprint:",fingerprint.shape,"Sparcity:",np.mean(fingerprint))
 # successes = 3 close, 5
 # 1, 5, 7
 # gone = smiles.index('')
-print(f"{names[gone]}:\t{smiles[gone]}")
+print(f"{testname}:\t{testsmiles}")
 
 individual = lambda x: SGDClassifier(random_state=x,loss='log', penalty='elasticnet', validation_fraction=sys.float_info.min,n_jobs=-1)
 getmodel = lambda: VotingClassifier([(str(i),individual(i)) for i in range(10)], voting= 'soft', n_jobs=-1)
 
-short_finger = list(fingerprint[:gone]) + list(fingerprint[gone+1:])
-short_label = list(label[:gone]) + list(label[gone+1:])
+short_finger = list(fingerprint)
+short_label = list(label)
 model = getmodel()
 print("model ready!")
 # model.fit(short_finger,short_label)
@@ -355,7 +355,7 @@ def model_on_list(x):
         fingerprint = np.array([AllChem.GetMorganFingerprintAsBitVect(Chem.MolFromSmiles(s),2,useChirality=True,nBits=bits)])
         result.append(model.predict_proba(fingerprint)[0][1]*(1-creativity)+0.5*creativity)
     return result
-pred = (model_on_list([smiles[gone]])[0] -0.5*creativity)/(1-creativity)
+pred = (model_on_list([testsmiles])[0] -0.5*creativity)/(1-creativity)
 print(f"prediction: {round(pred,2)}")
 
 pcut = 0.5
@@ -365,17 +365,17 @@ if pred < pcut:
     
 print("running monty carlo search...")
 min_molecule = mcts(
-    smiles[gone],
+    testsmiles,
     model_on_list,
     rollouts, # number of rollouts
     pcut, # probability cutoff
 )
 
-template = Chem.MolFromSmiles(smiles[gone])
+template = Chem.MolFromSmiles(testsmiles)
 AllChem.Compute2DCoords(template)
 for i,n in enumerate(min_molecule):
     print(f"Submolecule {i}:\tScore = {round(n[0],2)}\t{n[1]}")
-mMols = [Chem.MolFromSmiles(smiles[gone])] + [Chem.MolFromSmiles(m[1]) for m in min_molecule]
+mMols = [Chem.MolFromSmiles(testsmiles)] + [Chem.MolFromSmiles(m[1]) for m in min_molecule]
 
 if pred < pcut:
     print("WARNING: FULL MOLECULE PREDICTED NOT TO BIND\n\tSCORE = ",round(pred,2))
@@ -388,10 +388,10 @@ for at in mMols[0].GetAtoms():
     at.SetProp('atomNote',f"{round(sum(overlaps)/len(overlaps),2)}")
     
 main_mol = mMols[0]
-# print(f"{smiles[gone]}")
-# print(f"{names[gone]}")
+# print(f"{testsmiles}")
+# print(f"{testname}")
 # print(f"{len(fragments)} rollouts")
-# Draw.MolsToGridImage(mMols,legends=[names[gone]]+[f'Submolecule {i+1}/{len(fragments)}' for i in range(len(mMols)-1)], subImgSize=(250,250), useSVG=False)
-Draw.MolsToGridImage(mMols[:1],legends=[names[gone]+f"\n{len(fragments)} successfull rollouts"], subImgSize=(250,250), useSVG=False)
+# Draw.MolsToGridImage(mMols,legends=[testname]+[f'Submolecule {i+1}/{len(fragments)}' for i in range(len(mMols)-1)], subImgSize=(250,250), useSVG=False)
+Draw.MolsToGridImage(mMols[:1],legends=[testname+f"\n{len(fragments)} successfull rollouts"], subImgSize=(250,250), useSVG=False)
 # main_mol
 

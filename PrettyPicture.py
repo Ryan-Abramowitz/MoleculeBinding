@@ -332,7 +332,7 @@ print("Fingerprint:",fingerprint.shape,"Sparcity:",np.mean(fingerprint))
 # gone = smiles.index('')
 print(f"{testname}:\t{testsmiles}")
 
-individual = lambda x: SGDClassifier(random_state=x,loss='log', penalty='elasticnet', validation_fraction=sys.float_info.min,n_jobs=-1)
+individual = lambda x: SGDClassifier(random_state=x,loss='modified_huber', penalty='elasticnet', max_iter=1000, class_weight={0: 0.005, 1: 1}, warm_start=True, early_stopping=False, n_jobs=-1)#SGDClassifier(random_state=x,loss='modified_huber', penalty='elasticnet', validation_fraction=sys.float_info.min,n_jobs=-1)
 getmodel = lambda: VotingClassifier([(str(i),individual(i)) for i in range(10)], voting= 'soft', n_jobs=-1)
 
 short_finger = list(fingerprint)

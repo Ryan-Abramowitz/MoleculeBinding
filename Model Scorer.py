@@ -11,7 +11,6 @@ from sklearn.model_selection import KFold
 # --- Clean and Convert Test data -----
 
 df = pd.read_excel('Model Score Dataset.xlsx', sheet_name='Sheet1')
-# https://stackoverflow.com/questions/40057049/using-confusion-matrix-as-scoring-metric-in-cross-validation-in-scikit-learn
 bits = int(2048)
 
 
@@ -126,7 +125,6 @@ for train_index, test_index in kf.split(X):
 tpr, fpr, tnr = tpr[:, 1:], fpr[:, 1:], tnr[:, 1:]
 
 # # --- Print All Values to a excel sheet ---
-# https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc_crossval.html
 with pd.ExcelWriter('score rates.xlsx') as writer:
     for i in range(tpr.shape[1]):
         d_conf = {'Threshold': thresh, 'True positive rate': tpr[:,i], 'False Positive rate': fpr[:,i],'True negative rate': tnr[:,i]}

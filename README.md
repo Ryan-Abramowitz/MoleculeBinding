@@ -17,4 +17,4 @@ The SGD classifier from sklearn was used for the binary classifier and morgan fi
   - Model Prediction trained on Primary and Secondary screens.xlsx is the predicted scores of all of the compounds after the model was trained on the       primary and secondary screen. 
   - Model Prediction trained on all screens.xlsx is the predicted scores of all the compounds after the model was trained on the primary, secondary,       and tertiary screen. 
   - SantaCruzBioTech Catalog Score.xlsx is the predicted scores of the 379 pre-screened compounds from SantaCruzBioTech's carbohydrate's catalog that
-    had their SMILES available and was under 400 g/mol. Highlighted in green were the 13 selected compounds that were not duplicates from the previous    screens, were affordable and considered a hit ( > 0.5)
+    had their SMILES available and was under 400 g/mol. Highlighted in green were the 14 selected compounds that were not duplicates from the previous    screens, were affordable and considered a hit ( > 0.5)

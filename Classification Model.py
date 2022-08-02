@@ -38,49 +38,45 @@ for p in [True,False]:
     print("Fingerprint:",fingerprint.shape,"Sparcity:",np.mean(fingerprint))
 
 
-    for weight in (True,False,):
-        nums = []
+    nums = []
 
-        df = pd.read_excel('SupplementaryTables.xlsx', sheet_name='Sheet3')
-        nonsmiles = []
-        for i,j in enumerate(df['SMILES']):
-            try:
-                x = Chem.MolFromSmiles(j, sanitize=False)
-                clean_molecule(x)
-                AllChem.GetMorganFingerprintAsBitVect(x,2,useChirality=True,nBits=bits)
-            except:
-                nonsmiles.append(i)
-        df.drop(nonsmiles, axis=0, inplace=True)
+    df = pd.read_excel('SupplementaryTables.xlsx', sheet_name='Sheet3')
+    nonsmiles = []
+    for i,j in enumerate(df['SMILES']):
+        try:
+            x = Chem.MolFromSmiles(j, sanitize=False)
+            clean_molecule(x)
+            AllChem.GetMorganFingerprintAsBitVect(x,2,useChirality=True,nBits=bits)
+        except:
+            nonsmiles.append(i)
+    df.drop(nonsmiles, axis=0, inplace=True)
 
-        inp = list(df['SMILES'])
-        for _ in range(1000):
-            if weight:
-                model = SGDClassifier(loss='modified_huber', penalty='elasticnet', max_iter=1000, class_weight={0: 0.005, 1: 1}, warm_start=True, early_stopping=False, n_jobs=-1)
-            else:
-                model = SGDClassifier(loss='modified_huber', penalty='elasticnet', max_iter=1000, warm_start=True, early_stopping=False, n_jobs=-1)
+    inp = list(df['SMILES'])
+    for _ in range(1000):
+        model = SGDClassifier(loss='modified_huber', penalty='elasticnet', max_iter=1000, class_weight={0: 0.005, 1: 1}, warm_start=True, early_stopping=False, n_jobs=-1)
 
-            model.fit(fingerprint[:,features],label)
-            def model_on_list(smiles):
-                molecs = [Chem.MolFromSmiles(i, sanitize=False) for i in smiles]
-                [clean_molecule(s) for s in molecs]
-                fingerprint = np.array([AllChem.GetMorganFingerprintAsBitVect(i,2,useChirality=True,nBits=bits) for i in molecs])[:,features]
-                return model.predict_proba(fingerprint)[:,1]
-            predictions = model_on_list(inp)
-            nums += [predictions]
+        model.fit(fingerprint[:,features],label)
+        def model_on_list(smiles):
+            molecs = [Chem.MolFromSmiles(i, sanitize=False) for i in smiles]
+            [clean_molecule(s) for s in molecs]
+            fingerprint = np.array([AllChem.GetMorganFingerprintAsBitVect(i,2,useChirality=True,nBits=bits) for i in molecs])[:,features]
+            return model.predict_proba(fingerprint)[:,1]
+        predictions = model_on_list(inp)
+        nums += [predictions]
 
 
-        nums = np.array(nums)
-        predictions = [nums.mean(axis=0),nums.std(axis=0)/np.sqrt(len(nums)),np.array(df['Name']),np.array(df['SMILES'])]
+    nums = np.array(nums)
+    predictions = [nums.mean(axis=0),nums.std(axis=0)/np.sqrt(len(nums)),np.array(df['Name']),np.array(df['SMILES'])]
 
-        # plt.plot(sorted(predictions[0],reverse=True))
-        # plt.title('Test Predictions')
-        # plt.ylabel('Score')
-        # plt.xlabel('Molecule')
-        # plt.show()
+    # plt.plot(sorted(predictions[0],reverse=True))
+    # plt.title('Test Predictions')
+    # plt.ylabel('Score')
+    # plt.xlabel('Molecule')
+    # plt.show()
 
-        positives = sorted(list(zip(*predictions)),reverse=True)
-        nhits = len(positives)
-        print('Hits:',nhits)
-        x = pd.DataFrame(positives)
-        x.columns=['Score','SE','Name','SMILES']
-        x.to_excel(f'SupplementaryTablesPredict{"Weighted" if weight else "Unweighted"}-Primary{"" if p else "+Secondary"}.xlsx',index=False)
+    positives = sorted(list(zip(*predictions)),reverse=True)
+    nhits = len(positives)
+    print('Hits:',nhits)
+    x = pd.DataFrame(positives)
+    x.columns=['Score','SE','Name','SMILES']
+    x.to_excel(f'SupplementaryTablesPredictWeighted-Primary{"" if p else "+Secondary"}.xlsx',index=False)

@@ -14,7 +14,7 @@ The SGD classifier from sklearn was used for the binary classifier and morgan fi
 
 ## The contents of this repository:
   - Classification Model.py was used to train the model and predict molecule binding. 
-  - Model Scorer.py was used to train and generate the confusion matrix (3-fold cross validation)
+  - Model Scorer.py was used to train and generate the confusion matrix for 3-fold cross validation.
   - SupplementaryTables.xlsx includes all chemicals for the primary, secondary, and tertiary screen, their SMILES, and their classification as a hit      (1) or non-hit (0). 
   - Model Prediction trained on Primary and Secondary screens.xlsx is the predicted scores of all of the compounds after the model was trained on the       primary and secondary screen. 
   - Model Prediction trained on all screens.xlsx is the predicted scores of all the compounds after the model was trained on the primary, secondary,       and tertiary screen. 

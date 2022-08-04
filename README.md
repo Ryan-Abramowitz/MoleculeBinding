@@ -1,6 +1,6 @@
 # MoleculeBinding
 
-This repository contains python scripts for the classification model and accompanying data as described from the paper:
+This repository contains python scripts for the classification model and accompanying data as described from the manuscript:
 Exploring the substrate specificity of a sugar transporter with biosensors and cheminformatics
 
 This is a binary classification to predict which molecules are recognized by the plant membrane transporter AtSWEET1 through biosensor SweetTrac1:

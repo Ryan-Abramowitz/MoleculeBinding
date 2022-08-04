@@ -4,7 +4,9 @@ This repository contains python scripts for the classification model and accompa
 Exploring the substrate specificity of a sugar transporter with biosensors and cheminformatics
 
 This is a binary classification to predict which molecules are recognized by the plant membrane transporter AtSWEET1 through biosensor SweetTrac1:
+
 https://www.pnas.org/doi/abs/10.1073/pnas.2119183119
+
 The SGD classifier from sklearn was used for the binary classifier and morgan fingerprints for the molecules were generated using RDKit suite:
 
 1.	G. Landrum (2006) RDKit: open-source cheminformatics.

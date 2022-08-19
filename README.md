@@ -15,7 +15,6 @@ The SGD classifier from sklearn was used for the binary classifier and morgan fi
 ## The contents of this repository:
   - Classification Model.py was used to train the model and predict molecule binding. 
   - Model Scorer.py was used to train and generate the confusion matrix for 3-fold cross validation.
-  - SupplementaryTables.xlsx includes all chemicals for the primary, secondary, and tertiary screen, their SMILES, and their classification as a hit      (1) or non-hit (0). 
-  - Model Prediction trained on Primary and Secondary screens.xlsx is the predicted scores of all of the compounds after the model was trained on the       primary and secondary screen. 
+  - SupplementaryTable .xlsx includes all chemicals for the primary, secondary, and tertiary screen, their SMILES, and their classification as a hit      (1) or non-hit (0). 
   - SantaCruzBioTech Catalog Score.xlsx is the predicted scores of the 378 pre-screened compounds from SantaCruzBioTech's carbohydrate's catalog that
     had their SMILES available and was under 400 g/mol. Highlighted in green were the 12 selected compounds that were not duplicates from the previous    screens, were affordable, considered a hit ( > 0.65), and was water soluble. 

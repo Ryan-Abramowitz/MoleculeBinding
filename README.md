@@ -1,4 +1,4 @@
-# MoleculeBinding
+# Molecule Binding
 
 This repository contains python scripts for the classification model and accompanying data as described from the manuscript:
 
